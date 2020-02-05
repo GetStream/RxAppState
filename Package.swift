@@ -16,8 +16,7 @@ let package = Package(
     targets: [
         .target(name: "RxAppState",
                 dependencies: ["RxSwift", "RxCocoa"],
-                path: "RxAppState",
-                sources: ["Pod/Classes"])
+                path: "Pod/Classes")
     ],
     swiftLanguageVersions: [.v4_2, .v5]
 )
